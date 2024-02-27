@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Scheduling Simulator</title>
+    <link rel="stylesheet" href="free.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CPU Scheduling Simulator</h1>
+        <label for="algorithm">Select Algorithm:</label>
+        <select id="algorithm">
+            <option value="fcfs">FCFS</option>
+            <option value="sjf">SJF</option>
+            <option value="srtf">SRTF</option>
+            <option value="rr">RR (Round Robin)</option>
+        </select>
+        <button id="startBtn">Start Simulation</button>
+        <div id="output"></div>
+    </div>
+
+    <script src="let.js"></script>
+</body>
+</html>
